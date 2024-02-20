@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Coding Assesment L2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body >
+    <!-- Your code goes here -->
+
+    <div id="Product_img_section">
+      <img id= "main_image" src = "../4th.png" />
+      <br>
+      <div style = "width:80%;">
+      <div style = "width:95%; height:auto; display:flex; flex-direction:row; justify-content:space-between; margin:auto;">
+      <img src = "../1st.png" onclick="img_handler(event)" class ="Thumbnails"/>
+      <img src = "../2nd.png" onclick="img_handler(event)" class ="Thumbnails"/>
+      <img src = "../3rd.png" onclick="img_handler(event)" class ="Thumbnails"/>
+      <img src = "../4th.png" onclick="img_handler(event)" class ="Thumbnails"/>
+    </div>
+  </div>
+    </div>
+    <div id="product_info">
+      <p id="vendor"></p>
+      <p id="title"></p>
+      <hr>
+      <div style = "display:flex; flex-direction:row; align-items:center;">
+      <p id="price"></p>
+      <p id="percent_off" style = "color:rgb(235,135,131); margin-left:10px;"></p>
+    </div>
+      <p id="compare_at_price"></p>
+      <div>
+        <hr>
+        <p>Choose a Color</p>
+        <div id="colors">
+          <div><p>&#10003;</p></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <hr />
+        <p>Choose a size</p>
+        <div id="size">
+          <div class="size_cont">
+            <input type="radio" name="diff_sizes" />
+            <p>Small</p>
+          </div>
+          <div class="size_cont">
+            <input type="radio" name="diff_sizes" />
+            <p>Medium</p>
+          </div>
+          <div class="size_cont">
+            <input type="radio" name="diff_sizes" />
+            <p>Large</p>
+          </div>
+          <div class="size_cont">
+            <input type="radio" name="diff_sizes" />
+            <p>Extra Large</p>
+          </div>
+          <div class="size_cont">
+            <input type="radio" name="diff_sizes" />
+            <p>XXL</p>
+          </div>
+        </div>
+    </div>
+        <div id = "buttons">
+        <button id = "quant">
+          <p>-</p>
+      <p>1</p>
+  <p>+</p></button>
+  <button id = "cart">
+    <p id ="item_quant"> </p>
+    <p id = "Add_text">Add To Cart
+    </p></button>
+</div>
+<div id = "message">
+<p></p>
+</div>
+<hr>
+<p id = "description">
+
+</p>
+    </div>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html,
+body {
+  height: 100%;
+  width: 94%;
+  margin: auto;
+  font-family: "Inter";
+  display: flex;
+  flex-direction:row;
+  margin-top:45px;
+}
+
+img{
+  width:7vw;
+  height:8vw;
+}
+#Product_img_section
+{
+  width:50%;
+}
+#product_info{
+  width:50%;
+}
+#colors
+{
+  display:flex;
+  width:20vw;
+  justify-content:space-between;
+}
+#price{
+  color:rgb(64,75,126);
+  font-size:30px;
+  font-weight:600;
+  margin:0px;
+}
+#colors div{
+  width:45px;
+  height:45px;
+  border-width:2px;
+}
+.size_cont{
+  display:flex;
+  flex-direction: row;
+  background-color:rgb(236,236,236);
+  border-radius:1vw;
+  padding-top:0px;
+  padding-left:4px;
+  padding-right:4px;
+  /* height: 35px; */
+}
+#size{
+  display:flex;
+  flex-direction: row;
+  width:432px;
+  justify-content: space-between;
+}
+#quant{
+  display:flex;
+  background-color:rgb(236,236,236);
+  width:10vw;
+  justify-content:space-around;
+  border-radius: 2vw;
+  border-width:0px;
+  color:rgb(61,73,124);
+}
+#quant p:nth-child(2){
+  font-weight:800;
+  font-size:20px;
+  margin-top:11px;
+  margin-bottom:11px;
+}
+#buttons{
+  display:flex;
+  padding:0px;
+  margin-top:30px;
+
+}
+#cart{
+  position:relative;
+  width:15vw;
+  border-radius:3vw;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:12px;
+  padding-bottom:12px;
+  color:white;
+  background-color:rgb(61,73,124);
+  border-width:0px;
+  height:45px;
+  margin-left:10px;
+}
+#description{
+  color:rgb(186,186,186);
+  font-weight: 250;
+  font-size:20px;
+  width:40vw;
+}
+#item_quant{
+  position:absolute;
+  top:0vw;
+  width:2vw;
+  height:2vw;
+  background-color: rgb(217,217,217);
+  border-radius:1vw;
+  color:black;
+  font-weight: 700;
+  top:-21.6px;
+  visibility:hidden;
+}
+#message{
+  background-color:rgb(234,248,190);
+  text-align:center;
+  padding:5px;
+  visibility:hidden;
+}
+#colors div:nth-child(1){
+  border-style : double;
+}
+#Add_text{
+  position:relative;
+  font-size:20px; 
+  bottom:20px; 
+}
+@media screen and (max-width:870px)
+{
+  #Add_text{
+  font-size:15px;
+  bottom:15px; 
+  }
+  #size{
+    font-size:10px;
+    width:350px;
+  }
+
+}
+#main_image{
+  width:36vw;
+  height: 43.2vw;
+}
+#colors div
+{
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:30px;
+}
+#vendor{
+  color:rgb(211,212,214);
+}
+#title{
+  font-weight:600;
+  font-size:30px;
+}
+hr{
+  background-color:rgb(228,228,228);
+}
+#compare_at_price{
+  margin:0px;
+}
