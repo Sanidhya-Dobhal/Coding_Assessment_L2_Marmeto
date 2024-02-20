@@ -21,6 +21,12 @@ img{
 #product_info{
   width:50%;
 }
+#size_par{
+  overflow-x:scroll;
+}
+#colors_par{
+  overflow-x:scroll;
+}
 #colors
 {
   display:flex;
@@ -121,17 +127,9 @@ img{
   font-size:20px; 
   bottom:20px; 
 }
-@media screen and (max-width:870px)
-{
-  #Add_text{
-  font-size:15px;
-  bottom:15px; 
-  }
-  #size{
-    font-size:10px;
-    width:350px;
-  }
-
+#size{
+  font-size:10px;
+  width:350px;
 }
 #main_image{
   width:36vw;
@@ -157,4 +155,17 @@ hr{
 }
 #compare_at_price{
   margin:0px;
+}
+@media screen and (max-width:1000px)
+{
+  #colors{
+    width:200px;
+  }
+}
+@media screen and (max-width:870px)
+{
+  #Add_text{
+  font-size:15px;
+  bottom:15px; 
+  }
 }
